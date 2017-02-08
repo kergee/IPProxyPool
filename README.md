@@ -32,6 +32,9 @@ apt-get install python-lxml
 * 有时候使用的gevent版本过低会出现自动退出情况，请使用pip install gevent --upgrade更新)
 * 在python3中安装web.py，不能使用pip，直接下载py3版本的[源码](https://codeload.github.com/webpy/webpy/zip/py3)进行安装
 
+####Mac
+pip install requests chardet web.py sqlalchemy gevent lxml
+
 ####Windows
 1.下载[sqlite](http://www.sqlite.org/download.html),路径添加到环境变量
 <br/>
